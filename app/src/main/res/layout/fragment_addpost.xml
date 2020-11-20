@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddpostFragment">
+
+
+    <ImageButton
+        android:id="@+id/clearbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:contentDescription="@string/clear" />
+
+    <Button
+        android:id="@+id/postbtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toEndOf="@id/addpost"
+        android:background="@drawable/nobackgroung_btn"
+        android:text="@string/post" />
+
+    <TextView
+        android:id="@+id/addpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/clearbtn"
+        android:padding="10dp"
+        android:text="@string/what_s_on_your_mind"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="text"
+            android:hint="@string/what_s_on_your_mind"
+            android:padding="10sp"
+            android:layout_margin="10sp"
+            android:background="@drawable/btnbg"
+            android:autofillHints="status" />
+
+    </LinearLayout>
+</RelativeLayout>

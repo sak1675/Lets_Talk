@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "415094652010",
+    "firebase_url": "https://letstallkapp.firebaseio.com",
+    "project_id": "letstallkapp",
+    "storage_bucket": "letstallkapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415094652010:android:a40a0674e8a8f206835e13",
+        "android_client_info": {
+          "package_name": "com.example.letstalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415094652010-b18gmljfdevm944auve0iijpj9bafos7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTFa0TB0sKfJTJ4_vvcuQdmbnR9m_CqWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415094652010-b18gmljfdevm944auve0iijpj9bafos7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

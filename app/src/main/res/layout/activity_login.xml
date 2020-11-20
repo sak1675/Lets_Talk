@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".loginActivity">
+
+    <View
+        android:id="@+id/opacityFilter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEAEC"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.5">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="32dp"
+        android:padding="5sp"
+        android:text="@string/log_in"
+        android:textColor="#252627"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="224dp"
+        android:padding="5sp"
+        android:text="@string/password"
+        android:textColor="#252627"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="347dp"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="5sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="111dp"
+        android:padding="5sp"
+        android:text="@string/login_email"
+        android:textColor="#252627"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="452dp"
+        android:hint="@string/enter_username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="5sp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginBottom="274dp"
+        android:text="@string/cancel"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="284dp"
+        android:text="@string/log_in"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="407dp"
+        android:background="@drawable/nobackgroung_btn"
+        android:padding="5sp"
+        android:text="@string/forget_your_password"
+        android:textColor="#252627"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/help_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/nobackgroung_btn"
+        android:padding="5sp"
+        android:text="@string/help_here"
+        android:textColor="#252627"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="612dp"
+        android:padding="5sp"
+        android:text="@string/don_t_have_account"
+        android:textColor="#252627"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login_register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/nobackgroung_btn"
+        android:text="@string/create_one_here"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
